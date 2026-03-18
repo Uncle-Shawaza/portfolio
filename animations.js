@@ -1,5 +1,6 @@
 window.AnimationManager = {
     init: function() {
+        /*
         if (typeof AOS !== 'undefined') {
             AOS.init({
                 duration: 800,
@@ -8,6 +9,7 @@ window.AnimationManager = {
                 easing: 'ease-in-out'
             });
         }
+        */
         
         this.initHoverEffects();
     },
