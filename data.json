@@ -1,0 +1,56 @@
+{
+    "main": {
+        "profile": {
+            "image": "icon.png",
+            "name": "Uncle Shawaza",
+            "description": "Building digital solutions with clean code and creativity. Software & web developer since 2015.",
+            "targetSection": "stats"
+        },
+        "about": [
+            {
+                "icon": "fa-solid fa-code",
+                "title": "Clean Code",
+                "description": "I write maintainable, scalable and efficient code for web, software and bots."
+            },
+            {
+                "icon": "fa-solid fa-rocket",
+                "title": "Fast Delivery",
+                "description": "Agile development with focus on performance and user experience."
+            },
+            {
+                "icon": "fa-solid fa-brain",
+                "title": "Problem Solver",
+                "description": "Turning complex requirements into simple, working solutions."
+            },
+            {
+                "icon": "fa-solid fa-heart",
+                "title": "Passionate",
+                "description": "I love what I do, and it reflects in every project I build."
+            }
+        ],
+        "skills": [
+            "Java", "JavaScript", "Python", "C++", "React", "Node.js", "Flask", "Bot Development", "Docker", "AWS"
+        ],
+        "stats": [
+            { "value": "5+", "label": "Years Experience" },
+            { "value": "50+", "label": "Projects Completed" },
+            { "value": "20+", "label": "Happy Clients" },
+            { "value": "6", "label": "Programming Languages" }
+        ],
+        "closing": "Driven by curiosity and coffee. Always learning, always building. Let's create something great together."
+    },
+    "footer": {
+        "icon": "fa-regular fa-copyright",
+        "brand": "Uncle Shawaza",
+        "description": "Your next steps are the key to a better life.",
+        "quickLinks": ["Projects", "Resume", "Blog", "Codes", "Courses", "Contact"],
+        "social": [
+            { "icon": "fa-brands fa-github", "url": "https://github.com/UncleShawaza" },
+            { "icon": "fa-brands fa-whatsapp", "url": "#" },
+            { "icon": "fa-brands fa-facebook", "url": "#" },
+            { "icon": "fa-brands fa-youtube", "url": "#" },
+            { "icon": "fa-brands fa-linkedin", "url": "#" }
+        ],
+        "copyright": "© <i class='fa-solid fa-mug-saucer'></i> Uncle Shawaza. All rights reserved."
+    }
+}
