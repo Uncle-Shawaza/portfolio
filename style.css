@@ -401,12 +401,14 @@ footer {
 .profile-section {
     display: flex;
     align-items: center;
-    min-height: 70vh;
+    min-height: 100vh;
+    /*
     background: var(--bg-secondary);
     border-radius: 2rem;
     padding: 2rem 2.5rem;
     margin-bottom: 3rem;
     box-shadow: 0 10px 25px -8px var(--shadow-color);
+    */
 }
 
 .profile-grid {
@@ -419,6 +421,7 @@ footer {
 
 .profile-left {
     text-align: center;
+    align-items: center;
 }
 
 .profile-img {
@@ -426,7 +429,7 @@ footer {
     height: 280px;
     border-radius: 38% 62% 58% 42% / 42% 50% 50% 58%;
     object-fit: cover;
-    border: 4px solid var(--bg-primary);
+    border: 2px solid var(--bg-primary);
     box-shadow: 0 20px 30px -10px var(--shadow-color);
     margin-bottom: 1.2rem;
 }
@@ -440,6 +443,7 @@ footer {
 
 .profile-right {
     padding-left: 1rem;
+    align-items: center;
 }
 
 .profile-desc {
@@ -452,7 +456,7 @@ footer {
 
 .btn-scroll {
     background: var(--accent-primary);
-    color: white;
+    color: var(--text-primary);
     border: none;
     padding: 0.9rem 2rem;
     border-radius: 40px;
@@ -562,7 +566,7 @@ footer {
 }
 
 .stats-section .section-title {
-    color: #eaeaf5;
+    color: var(--text-primary);
 }
 
 .stats-grid {
@@ -576,7 +580,7 @@ footer {
     font-size: 3.2rem;
     font-weight: 700;
     line-height: 1.1;
-    color: #fffa;
+    color: var(--text-primary);
     font-family: var(--font-code);
 }
 
