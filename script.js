@@ -12,7 +12,6 @@ window.App = {
     init: async function() {
         
         window.ThemeManager.init();
-        window.AnimationManager.init();
 
         await this.loadAllData();
 
@@ -27,28 +26,24 @@ window.App = {
         }
         
         window.Router.init();
+        window.AnimationManager.init();
     },
     
     loadAllData: async function() {
         try {
-            /*
-            let [mainRes, codesRes, coursesRes, projectsRes, testimonialsRes] = await Promise.all([
-                fetch('data.json'),
-                fetch('codes.json'),
-                fetch('courses.json'),
-                fetch('projects.json'),
-                fetch('testimonials.json')
-            ]);
-            */
+                   
             const mainRes = await fetch('data.json');
+            const codesRes = await fetch('codes.json');
+            const coursesRes = await fetch('courses.json');
+            const projectsRes = await fetch('projects.json');
+            const testimonialsRes = await fetch('testimonials.json');
             
             this.mainData = await mainRes.json();
-            /*
             this.codesData = await codesRes.json();
             this.coursesData = await coursesRes.json();
             this.projectsData = await projectsRes.json();
             this.testimonialsData = await testimonialsRes.json();
-            */
+            
             
             this.buildMainSections(this.mainData.main);
             this.buildFooter(this.mainData.footer);
