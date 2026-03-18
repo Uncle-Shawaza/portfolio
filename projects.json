@@ -1,0 +1,49 @@
+{
+    "web_platform": {
+        "icon": "fa-solid fa-globe",
+        "title": "E-Learning Platform",
+        "desc": "Full-stack educational platform with video streaming and interactive quizzes",
+        "tags": ["React", "Node.js", "MongoDB", "WebRTC"],
+        "technologies": ["React", "Node.js", "Express", "MongoDB", "Socket.io", "WebRTC"],
+        "features": [
+            "Video streaming with WebRTC",
+            "Real-time chat during lessons",
+            "Interactive quizzes and assignments",
+            "Progress tracking dashboard",
+            "Payment integration"
+        ],
+        "liveUrl": "https://example.com",
+        "githubUrl": "https://github.com/UncleShawaza/learning-platform"
+    },
+    "telegram_bot": {
+        "icon": "fa-brands fa-telegram",
+        "title": "Telegram Bot Framework",
+        "desc": "Modular Telegram bot framework with plugin system",
+        "tags": ["Python", "Telegram", "Redis", "Docker"],
+        "technologies": ["Python", "python-telegram-bot", "Redis", "Docker", "PostgreSQL"],
+        "features": [
+            "Plugin-based architecture",
+            "Database integration",
+            "Admin panel",
+            "Analytics dashboard",
+            "Multi-language support"
+        ],
+        "githubUrl": "https://github.com/UncleShawaza/telegram-bot-framework"
+    },
+    "portfolio_2026": {
+        "icon": "fa-solid fa-briefcase",
+        "title": "Portfolio 2026",
+        "desc": "Modern portfolio website with dark mode and interactive sections",
+        "tags": ["HTML5", "CSS3", "JavaScript", "SEO"],
+        "technologies": ["HTML5", "CSS3", "JavaScript", "Font Awesome", "Google Fonts"],
+        "features": [
+            "Dark/Light theme toggle",
+            "Interactive code viewer",
+            "Video course player",
+            "SEO optimized",
+            "Responsive design"
+        ],
+        "liveUrl": "https://uncle-shawaza.github.io/portfolio/",
+        "githubUrl": "https://github.com/UncleShawaza/portfolio"
+    }
+}
